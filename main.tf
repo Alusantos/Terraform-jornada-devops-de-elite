@@ -38,3 +38,11 @@ resource "digitalocean_kubernetes_cluster" "k8s" {
 variable "do_token" {
   default = ""
 }
+
+variable "ssh_key_name" {
+  default = ""
+}
+
+variable "region" {
+  default = ""
+}
